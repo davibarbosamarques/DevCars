@@ -70,6 +70,45 @@ function zoomimg(posicao) {
 
 }
 
+let qualidades = [
+    {
+        "titulo": "Eficiência Energética",
+        "icon": "<i class='bi bi-lightning-fill' style='font-size:35px'></i>",
+        "descricao": "Carros que oferecem excelente economia de combustível, ajudando os clientes a economizarem dinheiro a longo prazo e reduzirem sua pegada de carbono."
+    },
+    {
+        "titulo": "Tecnologia Avançada",
+        "icon": "<i class='bi bi-gear-wide-connected' style='font-size:35px'></i>",
+        "descricao": "Destaque os recursos tecnológicos inovadores presentes nos carros, como sistemas de entretenimento de última geração, conectividade Bluetooth, assistência de estacionamento, etc."
+    },
+    {
+        "titulo": "Segurança Avançada",
+        "icon": "<i class='bi bi-shield-check' style='font-size:35px'></i>",
+        "descricao": "Destaque os recursos de segurança líderes do setor, como sistemas de frenagem automática, controle de estabilidade, monitoramento de ponto cego, câmeras de visão traseira, entre outros."
+    },
+    {
+        "titulo": "Desempenho Superior",
+        "icon": "<i class='bi bi-speedometer' style='font-size:35px'></i>",
+        "descricao": "Realce a potência e o desempenho excepcionais dos carros, destacando características como aceleração rápida, manuseio preciso e eficiência na estrada."
+    }
+]
+
+qualidades.map((qualidade, posicao) => {
+    let cardQualidade = document.getElementById("skills")
+    cardQualidade.innerHTML += `
+    <div class="col-md-6 d-flex justify-content-center">
+        <div class="card m-4 text-bg-secondary" style="box-shadow:3px 3px 30px .5px rgb(61, 59, 59); width:75%">
+            <div class="card-body">
+                <div class="text-center"> ${qualidade.icon}</div>
+                <h5 class="card-title">${qualidade.titulo}</h5>
+                <p class="card-text">${qualidade.descricao}</p>
+            </div>
+        </div>
+    </div>
+    `
+
+})
+
 function alterartemasite() {
     let tema = document.querySelector("html").getAttribute("data-bs-theme")
     if (tema == "dark") {
