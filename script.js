@@ -79,17 +79,17 @@ let qualidades = [
     {
         "titulo": "Tecnologia Avançada",
         "icon": "<i class='bi bi-gear-wide-connected' style='font-size:35px'></i>",
-        "descricao": "Destaque os recursos tecnológicos inovadores presentes nos carros, como sistemas de entretenimento de última geração, conectividade Bluetooth, assistência de estacionamento, etc."
+        "descricao": "Altos recursos tecnológicos e inovadores presentes nos carros, sistemas de entretenimento de última geração, conectividade Bluetooth, assistência de estacionamento, etc."
     },
     {
         "titulo": "Segurança Avançada",
         "icon": "<i class='bi bi-shield-check' style='font-size:35px'></i>",
-        "descricao": "Destaque os recursos de segurança líderes do setor, como sistemas de frenagem automática, controle de estabilidade, monitoramento de ponto cego, câmeras de visão traseira, entre outros."
+        "descricao": "Recursos de segurança líderes do setor, como sistemas de frenagem automática, controle de estabilidade, monitoramento de ponto cego, câmeras de visão traseira, entre outros."
     },
     {
         "titulo": "Desempenho Superior",
         "icon": "<i class='bi bi-speedometer' style='font-size:35px'></i>",
-        "descricao": "Realce a potência e o desempenho excepcionais dos carros, destacando características como aceleração rápida, manuseio preciso e eficiência na estrada."
+        "descricao": "Potência e desempenho excepcionais dos carros, características como aceleração rápida, manuseio preciso e eficiência na estrada."
     }
 ]
 
