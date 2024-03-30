@@ -61,14 +61,14 @@ footer div{
 }
 footer div .txt {
     display: flex;
-    justify-content: center; /* Alinha horizontalmente */
-    align-items: center !important; /* Alinha verticalmente */
-    height: 100%; /* Ajusta a altura para garantir o alinhamento vertical */
+    justify-content: center;
+    align-items: center !important;
+    height: 100%;
     padding-top: 10px;
 }
 
 footer div .redes {
-    height: 100%; /* Definindo a altura igual à altura do texto */
+    height: 100%;
     width: 25%;
     display: flex;
     justify-content: space-between;
